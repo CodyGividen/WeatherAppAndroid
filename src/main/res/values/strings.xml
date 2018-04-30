@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">WeatherAppAndroid</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="submit">Submit</string>
+    <string name="dark_sky">Powered By: \n Dark Sky</string>
+    <string name="weather_location">Weather for   %1$s.</string>
+    <string name="hi_temp_placeholder">80</string>
+    <string name="temp_display_placeholder">48℉</string>
+    <string name="precip_text">precip</string>
+    <string name="dark_sky_api_key">205685e5790d225fd9d04dbcd46479a0</string>
+    <string name="dark_sky_base_url">https://api.darksky.net/forecast/</string>
+    <string name="google_api_key">AIzaSyCOR4SCihGOaVCQZOvqsIBUxp6KUsbRJtk</string>
+    <string name="google_base_url">https://maps.googleapis.com/maps/api/geocode/</string>
 </resources>
