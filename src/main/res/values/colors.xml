@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="cloudyColor">#555</color>
+    <color name="defaultColor">#07F</color>
+    <color name="rainColor">#555</color>
+    <color name="snowColor">#555</color>
+    <color name="stormColor">#222</color>
+    <color name="sunColor">#07F</color>
+    <color name="nightColor">#011f40</color>
+    <color name="sleetColor">#adafb1</color>
+    <color name="windColor">#bbd2ed</color>
+    <color name="fogColor">#757576</color>
+    <color name="partlyCloudyDayColor">#2f5c8f</color>
+    <color name="partlyCloudyNightColor">#293139</color>
 </resources>

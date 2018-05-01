@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class GoogleAddress {
+
     @SerializedName("results")
     private List<Results> resultsList;
 
@@ -12,7 +13,7 @@ public class GoogleAddress {
         return resultsList;
     }
 
-    class Results{
+    public class Results{
 
         @SerializedName("formatted_address")
         private String formattedAddress;
@@ -29,7 +30,7 @@ public class GoogleAddress {
             return geometry;
         }
 
-        class Geometry{
+        public class Geometry{
             @SerializedName("location")
             private Location location;
 
@@ -37,7 +38,7 @@ public class GoogleAddress {
                 return location;
             }
         }
-        class Location{
+        public class Location{
             @SerializedName("lng")
             private Double longitude;
 

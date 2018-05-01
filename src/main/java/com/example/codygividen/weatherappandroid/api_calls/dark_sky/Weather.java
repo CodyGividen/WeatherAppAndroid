@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class Weather implements Parcelable{
+public class Weather implements Parcelable {
 
 
     protected Weather(Parcel in) {
@@ -47,10 +47,6 @@ public class Weather implements Parcelable{
     }
 
 
-
-
-
-
     @SerializedName("longitude")
     private double longitude;
 
@@ -59,21 +55,18 @@ public class Weather implements Parcelable{
     }
 
 
-
-
-
-
     @SerializedName("currently")
     private CurrentProperties mCurrentlyProperties;
 
     public CurrentProperties getmCurrentlyProperties() {
         return mCurrentlyProperties;
     }
-    class CurrentProperties{
+
+    public class CurrentProperties {
         @SerializedName("temperature")
         private double temperature;
 
-        public double getTemprature() {
+        public double getTemperature() {
             return temperature;
         }
 
@@ -93,23 +86,23 @@ public class Weather implements Parcelable{
     }
 
 
-
-
-
     @SerializedName("daily")
     private DailyProperties mDailyProperties;
 
     public DailyProperties getmDailyProperties() {
         return mDailyProperties;
     }
-    class DailyProperties{
+
+    public class DailyProperties {
         @SerializedName("data")
         private List<DailyDataProperties> dailyDataProperties;
 
         public List<DailyDataProperties> getDailyDataProperties() {
             return dailyDataProperties;
         }
-    }class DailyDataProperties{
+    }
+
+    public class DailyDataProperties {
         @SerializedName("temperatureHigh")
         private double temperatureHigh;
 
