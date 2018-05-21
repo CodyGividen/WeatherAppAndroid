@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void transitionToWeatherFragment() {
-        
+
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_holder, weatherFragment).commit();
     }
 }
